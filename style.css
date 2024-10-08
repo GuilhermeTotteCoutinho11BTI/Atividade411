@@ -6,6 +6,93 @@
 }
 
 header {
-    background-color: red;
-    margin-bottom: 5rem;
+    background-color: var(--header-bg-color);
+    color: var(--header-text-color);
+    height: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+.primeira {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    background-color: var(--primeira-bg-color);
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.primeira p {
+    max-width: 40rem;
+    margin-right: 2rem;
+}
+
+.primeira img {
+    max-width: 18rem;
+    height: auto;
+    border-radius: 8px;
+}
+
+.segunda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background-color: var(--segunda-bg-color);
+    height: auto;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.segunda img {
+    width: 12rem;
+    height: 12rem;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.segunda p {
+    max-width: 25rem;
+    text-align: center;
+    color: var(--text-color);
+}
+
+.terceira {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+    background-color: var(--terceira-bg-color);
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.terceira img {
+    width: 12rem;
+    height: 12rem;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
 }
